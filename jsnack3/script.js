@@ -19,6 +19,6 @@ console.log(numbersArray)
 // let i = 0;
 // while (i < numbersArray.length) {
 //     let sum = numbersArray[i]   
-//     i++
+//     
 
 // }  
