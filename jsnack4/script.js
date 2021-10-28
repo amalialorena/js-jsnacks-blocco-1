@@ -11,10 +11,11 @@ let userName = prompt("Come ti chiami?")
 
 let invited = false;
 for (let i = 0; i < list.length; i++) {
-  if(userName === list[i])
-  invited = true;
-  console.log(invited);
-}
+  if(userName === list[i]){
+      invited = true;
+      console.log(invited);
+  } 
+};
 
 //Communico all'utente il risultato
 if(invited === true) {
