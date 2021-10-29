@@ -7,6 +7,7 @@
 // Lo ricreo 10 volte con un ciclo     
     //salvo i numeri dentro a un array 
 
+    // Ci sono quasi
 let numbersArray = []
 while (numbersArray.length < 3) {
     let numbers = parseInt(prompt("Inserisci un numero"));
@@ -16,9 +17,11 @@ console.log(numbersArray)
 
     //faccio un ciclo che mi somma tutti i numeri
 
-// let i = 0;
-// while (i < numbersArray.length) {
-//     let sum = numbersArray[i]   
-//     
+let number = numbersArray [0];
+let sum = 0;
+console.log("number è: " ,number)
+for (let i = 0; i < numbersArray.length; i++) {
+    sum = number + numbersArray [i];
+}
 
-// }  
+console.log("la somma è:" ,sum);
